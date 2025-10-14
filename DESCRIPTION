@@ -1,0 +1,21 @@
+Package: BPM6fetchR
+Type: Package
+Title: UMAR platform importing package
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Maja", "Založnik",
+      email = "maja.zaloznik@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: of the fetchR family of packages. 
+  Internal UMAR package for parsing dataseries ifrom BMP6 data dumps from MF 
+  and importing them into the platform database.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3
