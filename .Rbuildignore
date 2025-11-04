@@ -5,3 +5,5 @@
 ^codecov\.yml$
 ^\.github$
 ^LICENSE\.md$
+tests/testthat/testdata/6PB*
+tests/testthat/testdata/BPM6*

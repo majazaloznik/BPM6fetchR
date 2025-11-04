@@ -49,6 +49,56 @@
       ],
       "Hash": "c74e7e71feadc6b7c5de999483f330cd"
     },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "methods",
+        "utils"
+      ],
+      "Hash": "0d3d8867aa41b0d9ad113b50c169ecb2"
+    },
+    "UMARaccessR": {
+      "Package": "UMARaccessR",
+      "Version": "1.0.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "UMARaccessR",
+      "RemoteUsername": "majazaloznik",
+      "RemoteSha": "c192830d974a8ec4fb57d61588c4724d39fc8a58",
+      "Requirements": [
+        "DBI",
+        "UMARimportR",
+        "dplyr",
+        "lubridate",
+        "magrittr",
+        "openxlsx",
+        "purrr",
+        "rlang"
+      ],
+      "Hash": "ecba109b0bbcfd4a73d9c7625f7c77ba"
+    },
+    "UMARimportR": {
+      "Package": "UMARimportR",
+      "Version": "0.1.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "UMARimportR",
+      "RemoteUsername": "majazaloznik",
+      "RemoteSha": "cc4643359418758d6a0f287fbbb034212533a951",
+      "Requirements": [
+        "DBI",
+        "RPostgres",
+        "dplyr",
+        "purrr",
+        "stringr"
+      ],
+      "Hash": "736687a295d2d5c83b4e247d14526700"
+    },
     "bit": {
       "Package": "bit",
       "Version": "4.6.0",
@@ -190,6 +240,16 @@
       ],
       "Hash": "b59377caa7ed00fa41808342002138f9"
     },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "methods"
+      ],
+      "Hash": "b0776f526d36d8bd4a3344a88fe165c4"
+    },
     "lifecycle": {
       "Package": "lifecycle",
       "Version": "1.0.4",
@@ -225,6 +285,23 @@
         "R"
       ],
       "Hash": "8b3b213aa0c54a0dec254288ccb545d1"
+    },
+    "openxlsx": {
+      "Package": "openxlsx",
+      "Version": "4.2.8",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "grDevices",
+        "methods",
+        "stats",
+        "stringi",
+        "utils",
+        "zip"
+      ],
+      "Hash": "0dae94b258dc5abc4713eacdbbebcb51"
     },
     "pillar": {
       "Package": "pillar",
@@ -475,6 +552,13 @@
         "graphics"
       ],
       "Hash": "cc2d62c76458d425210d1eb1478b30b4"
+    },
+    "zip": {
+      "Package": "zip",
+      "Version": "2.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6ebe4b1dc74c3e50e74e316323629583"
     }
   }
 }

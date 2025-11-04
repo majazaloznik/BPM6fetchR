@@ -23,8 +23,16 @@ RoxygenNote: 7.3.3
 Imports: 
     DBI,
     dplyr,
+    jsonlite,
     purrr,
     readxl,
     RPostgres,
     stringr,
-    tidyr
+    tidyr,
+    UMARaccessR,
+    UMARimportR
+Depends: 
+    R (>= 3.5)
+Remotes:
+    majazaloznik/UMARaccessR,
+    majazaloznik/UMARimportR

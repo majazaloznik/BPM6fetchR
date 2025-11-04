@@ -52,3 +52,6 @@ renv/library/
 renv/local/
 renv/python/
 renv/staging/
+
+tests/testthat/testdata/6PB*
+tests/testthat/testdata/BPM6*
